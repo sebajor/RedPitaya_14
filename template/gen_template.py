@@ -88,7 +88,7 @@ if __name__ =='__main__':
     j2_env = Environment(loader=FileSystemLoader(templates_dir),
                              trim_blocks=True)
 
-    slave_addr_size = [64, 64, 64, 64, 64, 64,32]
+    slave_addr_size = [32]
     hp_addr_offset = []#[0x0]
     hp_addr_size = []#[512]
     hp_size = 64
