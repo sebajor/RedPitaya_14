@@ -1,0 +1,5 @@
+`include "rtl/async_true_dual_ram.v"
+`include "rtl/axil_bram_arbiter.v"
+`include "rtl/axil_bram.v"
+`include "rtl/skid_buffer.v"
+`include "read_bram.v"
